@@ -1,0 +1,32 @@
+# Python virtual environments
+venv/
+.venv/
+env/
+ENV/
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Datasets
+data/raw/*
+!data/raw/.gitkeep
+
+# Processed data is needed for the Streamlit dashboard deployment
+# data/processed/* is allowed, except for large intermediate files if any
+# We'll just ignore the raw data and huge models, but our models are small.
+
+# Models
+# models/* is allowed as they are small sklearn/xgboost models needed for the app
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Scratch and test files
+scratch/

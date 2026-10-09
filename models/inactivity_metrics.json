@@ -1,0 +1,41 @@
+{
+    "LogisticRegression": {
+        "roc_auc": 0.80508011454303,
+        "confusion_matrix": [
+            [
+                346,
+                113
+            ],
+            [
+                156,
+                442
+            ]
+        ]
+    },
+    "RandomForest": {
+        "roc_auc": 0.7676058903680386,
+        "confusion_matrix": [
+            [
+                298,
+                161
+            ],
+            [
+                163,
+                435
+            ]
+        ]
+    },
+    "XGBoost": {
+        "roc_auc": 0.7738103045008417,
+        "confusion_matrix": [
+            [
+                299,
+                160
+            ],
+            [
+                156,
+                442
+            ]
+        ]
+    }
+}
